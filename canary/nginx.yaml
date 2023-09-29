@@ -29,6 +29,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: 
+        image: {{.Values.image}}
         ports:
         - containerPort: 80
